@@ -5,14 +5,15 @@
 #wrapper {
   margin: 0 auto;
   width: 970px;
-  height: 900px;
+  height: 850px;
   box-sizing: border-box;
   background-color: #dddfd4;
+  padding: 10px 20px 20px 10px;
 }
 #header,
 #footer {
-  width: 920px;
-  height: 50px;
+  width: 890px;
+  height: 40px;
   margin: 10px;
   background-color: #38b0ad;
   padding: 20px;
@@ -31,14 +32,13 @@
 }
 #navbar {
   margin-left: 200px;
-  margin-top: ;
 }
 #navbar > a {
   color: white;
   margin-left: 20px;
 }
 #main-content {
-  width: 920px;
+  width: 890px;
   height: 600px;
   margin: 10px;
   padding: 20px;
@@ -68,10 +68,10 @@
   vertical-align: bottom;
 }
 .three-commands > h3 {
-  padding: 10px;
+  padding: 5px;
 }
 .three-commands > p {
-  padding: 5px 10px 10px 15px;
+  padding: 5px 10px 10px 10px;
   margin-left: 10px;
 }
 #side-bar,
@@ -88,14 +88,29 @@
   height: 170px;
   margin: 20px;
 }
+.two-commands > h3 {
+  padding: 5px;
+}
+.two-commands > p {
+  padding: 5px 10px 10px 10px;
+  margin-left: 10px;
+  vertical-align: bottom;
+}
 #side-bar,
 .two-commands {
   display: inline-block;
 }
 .last-command {
   width: 650px;
-  height: 170px;
-  margin: 10px 20px;
+  height: 150px;
+  margin: 10px 10px 20px 20px;
+}
+.last-command > h3 {
+  padding: 5px;
+}
+.last-command > p {
+  padding: 5px 10px 10px 10px;
+  margin-left: 10px;
 }
 #footer {
   text-align: center;
